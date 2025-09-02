@@ -24,3 +24,7 @@ const checkPassword = () => {
 key.addEventListener("click", () => {
   checkPassword();
 });
+
+document.addEventListener("DOMContentLoaded", () => {
+  document.querySelector("input.pass").focus();
+})
