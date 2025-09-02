@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100dvh;
+  background-color: #1c2828;
+  color: #bcffff;
+  position: relative;
+}
+
+.password {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.hidden {
+  display: none;
+}
+
+.pass {
+  background-color: rgba(50, 76, 75, 0.85);
+  outline: none;
+  border: 0;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 8px;
+  width: 200px;
+}
+
+.pass::placeholder {
+  color: white;
+}
+
+.open-pass {
+  width: 200px;
+  padding: 10px 0;
+  border-radius: 8px;
+  background-color: rgba(109, 169, 167, 0.85);
+  border: 0;
+  outline: 0;
+}
+
+.blur {
+  filter: blur(10px);
+}
+
+.message {
+  width: 100%;
+  height: 100%;
+  padding: 30px;
+  direction: rtl;
+}
